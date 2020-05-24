@@ -1,0 +1,26 @@
+<!-- 
+  1. We may use type as date time or number etc.
+  2. need to accept the value and share it with the parent component
+  3. Error Handling
+  4. Enable or disable
+  5. @Input @Output will be used to handle the parent child sharing data
+
+<div class="form-group">
+  <input
+    type="email"
+    [ngClass]="{
+      'form-control form-control-lg': true,
+      'is-invalid': error.email !== undefined
+    }"
+    class="form-control form-control-lg"
+    placeholder="Email"
+    name="email"
+    required [(ngModel)]="user.email"
+  />
+  <div class="invalid-feedback d-block">{{ error.email }}</div>
+  <small class="form-text text-muted"
+    >This site uses Gravatar so if you want a profile image, use a Gravatar
+    email</small
+  >
+</div>
+-->
