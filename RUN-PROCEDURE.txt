@@ -1,0 +1,9 @@
+First clone or download `DevConnector-BackEnd` repository in your local computer.
+Use `npm i` command to generate `node_modules` in `DevConnector-BackEnd` folder.
+Create new client in `DevConnector-BackEnd` using command `ng new client`.
+Use `npm i` command to generate `node_modules` in `DevConnector-BackEnd\client` folder.
+Replace the `src` folder in generated client folder with the `src` folder of my `DevConnector-FrontEnd` repository.
+Copy `proxy.conf.json` file from `DevConnector-FrontEnd` repository to the generated client folder in `DevConnector-BackEnd` folder.
+Run first backend through command `npm run server` in `DevConnector-BackEnd` folder in terminal.
+Then run client through command `npm start` in `DevConnector-BackEnd\client` folder in another terminal. 
+Go to browser and check the website using `http:\\localhost:4200` URL.
